@@ -1,0 +1,82 @@
+<testsuites name="jest tests" tests="6" failures="6" time="2.444">
+  <testsuite name="Hacker Dormitory" errors="0" failures="6" skipped="0" timestamp="2022-03-25T13:03:08" time="2.444" tests="6">
+    <testcase classname="Hacker Dormitory should add valid students in Residents list" name="Hacker Dormitory should add valid students in Residents list" time="0.088">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;adam&quot;
+Received: &quot;john&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:39:56)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should add valid students without case sensitivity" name="Hacker Dormitory should add valid students without case sensitivity" time="0.017">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;adam&quot;
+Received: &quot;john&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:53:56)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should clear the input fields after adding a new student" name="Hacker Dormitory should clear the input fields after adding a new student" time="0.015">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;&quot;
+Received: &quot;Adam&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:60:28)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student who is not in the list" name="Hacker Dormitory should show error on trying to add a student who is not in the list" time="0.021">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Anderson is not a verified student!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:69:31)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should show error on trying to add a student whose validity has expired" name="Hacker Dormitory should show error on trying to add a student whose validity has expired" time="0.014">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Bonnie&apos;s validity has Expired!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:83:31)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Hacker Dormitory should hold the correct list and error message after series of Students addition" name="Hacker Dormitory should hold the correct list and error message after series of Students addition" time="0.027">
+      <failure>Error: expect(received).toEqual(expected) // deep equality
+
+Expected: &quot;Sorry, Talisk&apos;s validity has Expired!&quot;
+Received: &quot;Error Message&quot;
+    at Object.&lt;anonymous&gt; (/home/rafiq/Downloads/assignment-remoteBase-1/src/App.test.js:101:31)
+    at Object.asyncJestTest (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
+    at /home/rafiq/Downloads/assignment-remoteBase-1/node_modules/jest-jasmine2/build/queueRunner.js:73:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
